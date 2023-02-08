@@ -22,7 +22,5 @@ public class output1cw25 {
 		System.out.println("The result of multiplying is " + resultm);
 		System.out.println("The result of dividing is " + resultd);
 
-   }
-}
-
+	}
 }
