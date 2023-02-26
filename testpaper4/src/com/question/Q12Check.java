@@ -1,4 +1,4 @@
-package com.checkstaticoverriding;
+package com.question;
 
 class Animal {
 	static int nolegs = 4;
@@ -6,11 +6,6 @@ class Animal {
 
 	static void show() {
 		System.out.println(nolegs);
-
-	}
-
-	static void show(String name) {
-		System.out.println(nolegs + " " + name);
 
 	}
 }
@@ -28,14 +23,13 @@ class Dog extends Animal {
 	}
 }
 
-public class Check {
+public class Q12Check {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Animal d = new Dog();
 		// d.display();
 		d.show();
-		d.show("raja");
 	}
 
 }
