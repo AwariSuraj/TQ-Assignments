@@ -23,9 +23,9 @@ class Dog extends Animal {
 							 * time
 							 */
 
-	static void show() {
-		System.out.println(nolegs + " " + color);
-	}
+	/*
+	 * static void show() { System.out.println(nolegs + " " + color); }
+	 */
 }
 
 public class Check {
