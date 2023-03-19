@@ -2,7 +2,7 @@ package com.singleinheritance;
 
 class Vehicle {
 
-	int power;
+	int power = 200;
 	String color;
 }
 
@@ -22,7 +22,6 @@ public class Car {
 
 		Car1 c = new Car1();
 
-		c.power = 1000;
 		c.color = "white";
 		c.wheels = 4;
 		c.seatcapacity = 7;

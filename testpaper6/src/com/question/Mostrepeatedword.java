@@ -2,7 +2,7 @@ package com.question;
 
 public class Mostrepeatedword {
 
-	public static void Frequency(String s1) {
+	public static void repeat(String s1) {
 		s1 = s1.toLowerCase();
 		char ch[] = s1.toCharArray();
 		int count;
@@ -25,7 +25,7 @@ public class Mostrepeatedword {
 
 	public static void main(String[] args) {
 		String s = "suraj Awari";
-		Frequency(s);
+		repeat(s);
 
 	}
 
