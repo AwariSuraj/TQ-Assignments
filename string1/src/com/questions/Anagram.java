@@ -39,7 +39,7 @@ public class Anagram {
 			sort(ch2);
 
 			if (equal(ch1, ch2)) {
-				System.out.println("string is anagram");
+				System.out.println("string  is  anagram");
 			} else {
 				System.out.println("string is not an  anagram");
 			}

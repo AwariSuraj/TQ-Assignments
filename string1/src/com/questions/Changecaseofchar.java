@@ -21,6 +21,11 @@ public class Changecaseofchar {
 		System.out.println("enter a String");
 		String s = sc.next();
 		changecase(s);
+		String s1 = "abc";
+		System.out.println(s1);
+		s1 = "def";
+
+		System.out.println(s1);
 	}
 
 }
